@@ -17,13 +17,22 @@ I have co-founded an edtech platform that scaled to 2,000+ users, shipped produc
 `Python` `V-RAG` `RAG Pipelines` `LLM Integration` `Agentic Workflows` `Tool Calling` `Prompt Engineering` `Gemini API` `Anthropic API` `OpenAI API` `Computer Vision` `NLP`
 
 **Web**
-`TypeScript` `React` `Next.js` `Supabase` `PostgreSQL` `Node.js` `Flask` `FastAPI` `REST APIs` `Tailwind CSS`
+`TypeScript` `React` `Next.js` `Supabase` `PostgreSQL` `Node.js` `Flask` `FastAPI` `REST APIs` `Tailwind CSS` `Django` `Celery`
 
 **Mobile**
 `Kotlin` `Jetpack Compose` `Android SDK` `Google ML Kit`
 
 **Infrastructure**
 `AWS` `Kubernetes` `Docker` `Linux` `GitHub Actions` `CI/CD`
+
+---
+
+## Open Source
+
+### [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) — PR [#6817](https://github.com/cookiecutter/cookiecutter-django/pull/6817)
+Fixed GitHub Actions CI failure when projects are generated with Docker enabled but local env files are not kept in VCS (`use_docker=y`, `keep_local_envs_in_vcs=n`). Made Compose `env_file` entries optional and added a CI step that creates minimal dummy env files so Postgres/Django still receive required variables.
+
+`Docker Compose` `GitHub Actions` `Django` `CI/CD`
 
 ---
 
@@ -72,6 +81,7 @@ Browser-based 3D racing game built with Three.js and WebGL. Real-time 3D renderi
 
 - Building [ReliabilityIQ](https://reliabilityiq.com) — AI Predictive and Corrective Maintenance SaaS
 - Developing TrackIt for Nigerian SME expense management
+- Contributing to open-source Django tooling ([cookiecutter-django #6817](https://github.com/cookiecutter/cookiecutter-django/pull/6817))
 - Open to full-time roles in AI engineering, full-stack development, and Android development
 - Creating AI anime content independently — ink wash short films and manga-style compositions
 
