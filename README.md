@@ -8,7 +8,7 @@ Open to full-time roles in backend engineering, AI engineering, and full-stack d
 
 I build production software that connects systems and AI to real problems — APIs, async pipelines, web apps, and Android — end-to-end from architecture to deployment.
 
-I co-founded an edtech product that scaled to **2,000+ users**, ship production AI systems, and independently build [ReliabilityIQ](https://reliabilityiq.com) (AI predictive maintenance SaaS). Recent work includes a production Django/Celery task queue API and an open-source contribution to [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django).
+I co-founded an edtech product that scaled to **2,000+ users**, ship production AI systems, and independently build [ReliabilityIQ](https://reliabilityiq.com) (AI predictive maintenance SaaS). Recent work includes a production Django/Celery task queue API and a **merged** open-source contribution to [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django).
 
 ---
 
@@ -62,11 +62,12 @@ Independent AI predictive and corrective maintenance SaaS — product design thr
 
 ## Open Source
 
-### [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) — [PR #6817](https://github.com/cookiecutter/cookiecutter-django/pull/6817)
-Fixed GitHub Actions failures when generated projects use Docker but do not keep local env files in VCS. Made Compose `env_file` entries optional (`required: false`) and added a CI step that creates minimal dummy env files so Postgres/Django still receive required variables.
+### [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) — [Merged PR #6817](https://github.com/cookiecutter/cookiecutter-django/pull/6817)
+**Merged** into `main` (reviewed and merged by maintainer [@browniebroke](https://github.com/browniebroke)).
 
-`Docker Compose` `GitHub Actions` `Django` `CI/CD`  
-Upstream CI on the PR: **all checks green**
+Fixed GitHub Actions CI failures when generated projects use Docker but do not keep local env files in VCS (`use_docker=y`, `keep_local_envs_in_vcs=n`). Made Compose `env_file` entries optional (`required: false`) and added a CI step that creates minimal dummy env files so Postgres/Django still receive required variables during migrations and tests.
+
+`Docker Compose` `GitHub Actions` `Django` `CI/CD`
 
 ---
 
@@ -83,7 +84,7 @@ Upstream CI on the PR: **all checks green**
 - Shipping and hardening the [Django Task Queue API](https://github.com/Africanus12/django-task-queue-api)  
 - Building [ReliabilityIQ](https://reliabilityiq.com)  
 - Developing TrackIt for SME expense workflows  
-- Contributing to open-source Django tooling ([cookiecutter-django #6817](https://github.com/cookiecutter/cookiecutter-django/pull/6817))  
+- Open-source contributor to [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) ([#6817 merged](https://github.com/cookiecutter/cookiecutter-django/pull/6817))  
 - Open to full-time **backend**, **AI/ML**, and **full-stack** roles (relocation welcome)
 
 ---
